@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Mad Lib</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Join in on the Mad Lib</h1>
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="person">The name of a person:</label>
+          <input id="person" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="place">The name of a place:</label>
+          <input id="place" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="thing">The name of a thing:</label>
+          <input id="thing" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="action1">An action:</label>
+          <input id="action1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="action2">Another action:</label>
+          <input id="action2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="action3">Yet another action:</label>
+          <input id="action3" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="phrase">A loud phrase:</label>
+          <input id="phrase" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="adjective">A past tense adjective:</label>
+          <input id="adjective" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn">Show story</button>
+      </form>
+    </div>
+
+    <div id="story">
+      <h1>Mad Lib</h1>
+      <p>
+        Once upon a time, <span class="person"></span> was <span class="action1"></span> in the <span class="place"></span>. All of a sudden, a <span class="thing"></span> popped out and began to <span class="action2"></span><span class="person"></span>. “<span class="phrase"></span>!” <span class="person"></span> exclaimed loudly. Hearing this, the <span class="thing"></span> got <span class="adjective"></span> and <span class="action3"></span> away. 
+      </p>
+    </div>
+  </div>
+</body>
+</html>
